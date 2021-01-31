@@ -78,7 +78,6 @@ class MainActivity : AppCompatActivity() {
         setListeners()
         setupUI()
         getPermissions()
-       // CallAPILoginAsyncTask("Kendrick", "Lmao").execute()
     }
 
     private fun getLocationWeatherDetails(name : String){
@@ -295,9 +294,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showCustomProgressDialog(){
         mProgressDialog = Dialog(this)
-
         mProgressDialog!!.setContentView(R.layout.dialog_custom_progress)
-
         mProgressDialog!!.show()
     }
 
@@ -443,7 +440,7 @@ class MainActivity : AppCompatActivity() {
                     }
                 }
 
-                //Set the weather animation
+                //Set the weather background animation
                 binding.wvWeatherView.apply {
                     setWeatherData(weatherType)
                     speed = weatherSpeed
@@ -521,6 +518,7 @@ class MainActivity : AppCompatActivity() {
  */
 
 /*
+    //Pretty much calling the api just without using retrofit
     private inner class CallAPILoginAsyncTask(val username : String, val password : String): AsyncTask<Any, Void, String>(){
 
         private lateinit var customProgressDialog : Dialog
