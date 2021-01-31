@@ -6,7 +6,7 @@ Simple weather app made with Android Studio and Kotlin.
 
 The app gets weather by the device location, but also accepts a city input. It has animated gradient background that changes depending on the weather conditions, also the app contains rain and snow animations if it's raining/snowing in the city. User can pull down on the app to make the weather refresh (on currently selected city).
 
-For all weather data ![OpenWeatherMap](https://openweathermap.org/api) API was used.
+For all weather data [OpenWeatherMap](https://openweathermap.org/api) API was used.
 
 Libraries used:
   1. Material Design for Android
