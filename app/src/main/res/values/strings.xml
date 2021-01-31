@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AerWeather</string>
+    <string name="loading">Loading...</string>
+
+    <string name="image_contentDescription">image</string>
+    <string name="miles_per_hour">miles/hour</string>
+    <string name="refresh">Refresh</string>
+    <string name="hint_city">Search for a city</string>
+</resources>
